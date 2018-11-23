@@ -66,7 +66,7 @@ const SelectedArticleListComponent = ({
   );
 };
 
-SelectedArticleListComponent.poropTypes = {
+SelectedArticleListComponent.PropTypes = {
   selectedArticles: PropTypes.object, //object with id of each article as key
   toggleArticleInSelectedArticles: PropTypes.func // function to toggle selected article
 };
